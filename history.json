@@ -1,0 +1,992 @@
+{
+  "title": "The history of muscle",
+  "tagline": "From Galen's pairs and Borelli's levers to a frog in a syringe and two papers that changed biology on the same day.",
+  "intro": "For two thousand years people thought muscles swelled with spirit sent down the nerves. Then a frog muscle in a glass tube showed nothing flows in, a mathematician treated bones as levers, and sparks showed the signal is electric. The twentieth century found the fuel, ATP, and the motors, actin and myosin, and in 1954 showed that they slide. Today the story is about genes, ageing and keeping muscles strong.",
+  "eras": [
+    {
+      "id": "ancient",
+      "name": "Spirit and pulleys",
+      "from": -600,
+      "to": 300,
+      "color": "#c49bff",
+      "summary": "Sushruta counts muscles, Aristotle asks how animals move, and Galen shows muscles pull in opposing pairs."
+    },
+    {
+      "id": "renaissance",
+      "name": "Muscle men",
+      "from": 1500,
+      "to": 1600,
+      "color": "#ff9fc0",
+      "summary": "Leonardo and Vesalius draw muscles from real dissections, layer by layer."
+    },
+    {
+      "id": "mechanics",
+      "name": "Levers and fibres",
+      "from": 1660,
+      "to": 1700,
+      "color": "#ffd166",
+      "summary": "Steno's fibres, Swammerdam's frog and Borelli's levers turn muscle into mechanics."
+    },
+    {
+      "id": "electric",
+      "name": "Sparks and stripes",
+      "from": 1780,
+      "to": 1880,
+      "color": "#8ef0ff",
+      "summary": "Galvani's frogs, Duchenne's electrodes, myosin, and red and white muscle."
+    },
+    {
+      "id": "chemistry",
+      "name": "The chemistry of effort",
+      "from": 1880,
+      "to": 1950,
+      "color": "#6ee7a8",
+      "summary": "Calcium, lactate, heat, phosphocreatine, ATP and actomyosin."
+    },
+    {
+      "id": "filaments",
+      "name": "Sliding filaments",
+      "from": 1950,
+      "to": 1980,
+      "color": "#ff8a5c",
+      "summary": "The 1954 papers, cross-bridges, troponin and the length–tension curve."
+    },
+    {
+      "id": "genes",
+      "name": "Genes and ageing",
+      "from": 1985,
+      "to": 2026,
+      "color": "#9db4ff",
+      "summary": "Dystrophin, sarcopenia, the myosin motor in 3D, myostatin and gene therapy."
+    }
+  ],
+  "events": [
+    {
+      "year": -600,
+      "date": "c. 600 BCE to 300 CE (dates much debated)",
+      "era": "ancient",
+      "art": "scroll",
+      "key": false,
+      "title": "Five hundred muscles, counted in India",
+      "who": "Sushruta and later editors of the Sushruta Samhita",
+      "where": "Varanasi (traditionally)",
+      "country": "India",
+      "text": "The Sushruta Samhita, a Sanskrit surgery text, lists about 500 peshi (muscles), with 20 more in women, alongside bones, joints and vessels. Its authors learned anatomy by studying bodies softened in water.",
+      "why": "It is one of the oldest systematic counts of the body's muscles, not far from today's figure of more than 600.",
+      "box": "anatomy",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "year": -350,
+      "date": "c. 350 BCE",
+      "era": "ancient",
+      "art": "quill",
+      "key": false,
+      "title": "On the Movement of Animals",
+      "who": "Aristotle",
+      "where": "Athens",
+      "country": "Greece",
+      "text": "Aristotle wrote a short book asking how animals move. He saw that movement needs a fixed point to push against and something inside that pulls, though he thought the power came from the heart and \"pneuma\", a kind of warm breath.",
+      "why": "He framed the question every later muscle scientist tried to answer.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": -260,
+      "date": "c. 260 BCE",
+      "era": "ancient",
+      "art": "muscle",
+      "key": false,
+      "title": "Muscles fill with spirit",
+      "who": "Erasistratus",
+      "where": "Alexandria",
+      "country": "Egypt (then Ptolemaic)",
+      "text": "Erasistratus dissected bodies in Alexandria and traced nerves into muscles. He thought a muscle shortened because it swelled with pneuma sent down the nerves, getting fatter as it got shorter.",
+      "why": "The \"inflation\" idea lasted for almost 2,000 years until experiments disproved it.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 170,
+      "date": "c. 170",
+      "era": "ancient",
+      "art": "scroll",
+      "key": true,
+      "title": "Galen: every muscle has an opposite",
+      "who": "Galen of Pergamon",
+      "where": "Rome",
+      "country": "Roman Empire (born in Pergamon, now Turkey)",
+      "text": "Galen, doctor to Roman gladiators and emperors, wrote \"On the Movement of Muscles\". He showed that muscles act only by pulling, that they work in opposing pairs, and that cutting a nerve paralyses the muscle it serves.",
+      "why": "The idea of antagonist pairs, like the biceps and triceps, starts with him.",
+      "box": "pairs",
+      "sources": [
+        4,
+        5
+      ]
+    },
+    {
+      "year": 1543,
+      "date": "1543",
+      "era": "renaissance",
+      "art": "scroll",
+      "key": true,
+      "title": "The muscle men of the Fabrica",
+      "who": "Andreas Vesalius",
+      "where": "Padua and Basel",
+      "country": "Italy and Switzerland",
+      "text": "Vesalius published De humani corporis fabrica, a huge anatomy atlas based on his own dissections. Its famous \"muscle men\" plates peel the body layer by layer and correct many of Galen's errors, which came from animal bodies.",
+      "why": "Muscle anatomy became something you check by looking, not by quoting old books.",
+      "box": "anatomy",
+      "sources": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 1663,
+      "date": "c. 1660s (published 1737)",
+      "era": "mechanics",
+      "art": "flask",
+      "key": true,
+      "title": "The frog muscle that did not swell",
+      "who": "Jan Swammerdam",
+      "where": "Amsterdam",
+      "country": "Netherlands",
+      "text": "Swammerdam sealed a frog's muscle and nerve in a glass tube with water and made it contract by touching the nerve. The water level did not rise: if anything it dropped a little. So nothing flows into a working muscle. His notes were published only in 1737, in Biblia Naturae.",
+      "why": "It disproved the old idea that muscles contract by filling with spirit or fluid.",
+      "box": "sliding",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1667,
+      "date": "1667",
+      "era": "mechanics",
+      "art": "muscle",
+      "key": false,
+      "title": "A muscle is a bundle of fibres",
+      "who": "Nicolas Steno (Niels Stensen)",
+      "where": "Florence",
+      "country": "Italy (born in Denmark)",
+      "text": "In Elementorum myologiae specimen, Steno described a muscle as a bundle of fibres joined to tendons, and explained contraction as a change of shape of those fibres, drawn with geometry.",
+      "why": "He put the fibre, not a mysterious spirit, at the centre of muscle action.",
+      "box": "sliding",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1680,
+      "date": "1680–1681",
+      "era": "mechanics",
+      "art": "hydraulic",
+      "key": true,
+      "title": "Borelli: the body is a machine of levers",
+      "who": "Giovanni Alfonso Borelli",
+      "where": "Rome",
+      "country": "Italy",
+      "text": "Borelli's De Motu Animalium, published just after his death, treated bones as levers and muscles as the forces that pull on them. He worked out that muscles must pull many times harder than the weights they hold, because they attach so close to the joint.",
+      "why": "It founded biomechanics and is the reason chapter 4 of this box can work out your biceps force.",
+      "box": "pairs",
+      "sources": [
+        11,
+        12
+      ]
+    },
+    {
+      "year": 1791,
+      "date": "1791",
+      "era": "electric",
+      "art": "bolt",
+      "key": true,
+      "title": "Frog legs twitch with electricity",
+      "who": "Luigi Galvani, with Lucia Galeazzi Galvani",
+      "where": "Bologna",
+      "country": "Italy",
+      "text": "Galvani found that frog legs jumped when their nerves were touched with metal or sparks. He proposed \"animal electricity\" flowing from nerve to muscle. Alessandro Volta disagreed, and their argument led to the battery.",
+      "why": "It showed that the signal that makes a muscle contract is electrical.",
+      "box": "kinds",
+      "sources": [
+        13,
+        14
+      ]
+    },
+    {
+      "year": 1862,
+      "date": "1855–1862",
+      "era": "electric",
+      "art": "bolt",
+      "key": false,
+      "title": "Electric sparks map the face",
+      "who": "Guillaume-Benjamin Duchenne de Boulogne",
+      "where": "Paris",
+      "country": "France",
+      "text": "Duchenne stimulated single muscles through the skin with small electric currents to see what each one does. In 1862 he published photographs of faces made to smile and frown this way. He also invented a needle for taking tiny samples of living muscle.",
+      "why": "He mapped what individual muscles do and started modern muscle medicine.",
+      "box": "anatomy",
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "year": 1864,
+      "date": "1859–1864",
+      "era": "electric",
+      "art": "flask",
+      "key": false,
+      "title": "Myosin is squeezed out of muscle",
+      "who": "Wilhelm Kühne",
+      "where": "Berlin and Amsterdam",
+      "country": "Germany",
+      "text": "Kühne pressed a thick, sticky protein out of minced frog muscle and called it myosin. It was the first muscle protein ever isolated.",
+      "why": "Myosin turned out to be the motor that does the pulling.",
+      "box": "sliding",
+      "sources": [
+        17,
+        18
+      ]
+    },
+    {
+      "year": 1868,
+      "date": "1861–1868",
+      "era": "electric",
+      "art": "person",
+      "key": false,
+      "title": "A muscle-wasting disease in boys is described",
+      "who": "Guillaume-Benjamin Duchenne de Boulogne",
+      "where": "Paris",
+      "country": "France",
+      "text": "Duchenne described boys whose calf muscles looked big but grew steadily weaker, and examined their muscle under the microscope. The condition now carries his name: Duchenne muscular dystrophy.",
+      "why": "It began the scientific study of muscular dystrophies.",
+      "box": "health",
+      "sources": [
+        15,
+        43
+      ]
+    },
+    {
+      "year": 1873,
+      "date": "1873",
+      "era": "electric",
+      "art": "muscle",
+      "key": false,
+      "title": "Red muscle and white muscle",
+      "who": "Louis-Antoine Ranvier",
+      "where": "Paris",
+      "country": "France",
+      "text": "Ranvier noticed that red muscles in rabbits contracted slowly and steadily, while pale muscles twitched fast. It was the first clear sign of slow and fast muscle fibres.",
+      "why": "Sprinters and marathoners differ in exactly this mix.",
+      "box": "energy",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 1883,
+      "date": "1882–1883",
+      "era": "chemistry",
+      "art": "flask",
+      "key": false,
+      "title": "Calcium keeps the heart beating",
+      "who": "Sydney Ringer",
+      "where": "London",
+      "country": "United Kingdom",
+      "text": "Ringer found that a frog heart kept beating in London tap water but stopped in distilled water. The missing ingredient was calcium: without it the heart muscle could not contract.",
+      "why": "Calcium, it turned out, is the switch that turns every muscle on.",
+      "box": "sliding",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 1907,
+      "date": "1907",
+      "era": "chemistry",
+      "art": "flask",
+      "key": false,
+      "title": "Lactic acid in tired muscle",
+      "who": "Walter Morley Fletcher and Frederick Gowland Hopkins",
+      "where": "Cambridge",
+      "country": "United Kingdom",
+      "text": "Fletcher and Hopkins showed that frog muscle builds up lactic acid when it works without oxygen, and clears it again when oxygen returns.",
+      "why": "It linked fatigue and oxygen to chemistry, and began a long, and often misunderstood, story about lactate.",
+      "box": "energy",
+      "sources": [
+        54,
+        21
+      ]
+    },
+    {
+      "year": 1922,
+      "date": "1922 (awarded 1923)",
+      "era": "chemistry",
+      "art": "trophy",
+      "key": true,
+      "title": "A Nobel Prize for muscle heat",
+      "who": "Archibald Vivian Hill and Otto Meyerhof",
+      "where": "London and Kiel",
+      "country": "United Kingdom and Germany",
+      "text": "A. V. Hill measured the tiny amounts of heat a muscle gives off as it contracts; Otto Meyerhof linked oxygen use to the making and removal of lactic acid. They shared the 1922 Nobel Prize in Physiology or Medicine. Hill went on to study how fast runners use oxygen, the idea behind VO2 max.",
+      "why": "Muscle energy became something you could measure.",
+      "box": "energy",
+      "sources": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "year": 1927,
+      "date": "1927–1929",
+      "era": "chemistry",
+      "art": "molecule",
+      "key": true,
+      "title": "Phosphocreatine and ATP are found",
+      "who": "Cyrus Fiske and Yellapragada Subbarow (and independently Karl Lohmann, and Philip and Grace Eggleton)",
+      "where": "Boston",
+      "country": "United States (Subbarow was born in Bhimavaram, India)",
+      "text": "At Harvard, Fiske and the Indian biochemist Yellapragada Subbarow discovered phosphocreatine in muscle in 1927 and, in 1929, ATP. Karl Lohmann in Germany found ATP the same year, and the Eggletons in London found \"phosphagen\" too.",
+      "why": "ATP is the energy coin every myosin stroke spends; phosphocreatine is the quick reserve behind a sprint.",
+      "box": "energy",
+      "sources": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "year": 1939,
+      "date": "1939",
+      "era": "chemistry",
+      "art": "molecule",
+      "key": false,
+      "title": "Myosin breaks down ATP",
+      "who": "Vladimir Engelhardt and Militsa Lyubimova",
+      "where": "Moscow",
+      "country": "Soviet Union",
+      "text": "Engelhardt and Lyubimova showed that myosin is itself an enzyme that splits ATP. The motor and the fuel-burner were the same protein.",
+      "why": "It connected the fuel directly to the motor.",
+      "box": "sliding",
+      "sources": [
+        17,
+        18
+      ]
+    },
+    {
+      "year": 1942,
+      "date": "1942",
+      "era": "chemistry",
+      "art": "muscle",
+      "key": true,
+      "title": "Threads of actomyosin contract",
+      "who": "Albert Szent-Györgyi, Brunó Straub and Ilona Banga",
+      "where": "Szeged",
+      "country": "Hungary",
+      "text": "In wartime Szeged, Straub purified a second protein, actin. Szent-Györgyi's team mixed it with myosin to make \"actomyosin\" threads, added ATP, and watched the threads shrink. Szent-Györgyi called it seeing motion, the oldest sign of life, in a test tube.",
+      "why": "Muscle contraction became chemistry you could do on a bench.",
+      "box": "sliding",
+      "sources": [
+        28,
+        30,
+        29
+      ]
+    },
+    {
+      "year": 1954,
+      "date": "22 May 1954",
+      "era": "filaments",
+      "art": "muscle",
+      "key": true,
+      "title": "The filaments slide: two papers side by side",
+      "who": "Andrew Huxley and Rolf Niedergerke; Hugh Huxley and Jean Hanson",
+      "where": "Cambridge and London (and MIT)",
+      "country": "United Kingdom",
+      "text": "Two pairs of scientists, working separately, published back-to-back papers in the same issue of Nature. Watching the stripes of living and stretched fibres, both saw the dark A band keep its width while the light bands shrank. The filaments do not shorten: they slide past each other. The two Huxleys were not related.",
+      "why": "The sliding filament theory is how we understand every muscle today.",
+      "box": "sliding",
+      "sources": [
+        31,
+        32,
+        17,
+        33
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "1957",
+      "era": "filaments",
+      "art": "cell",
+      "key": false,
+      "title": "A model of the cross-bridge",
+      "who": "Andrew Huxley",
+      "where": "Cambridge",
+      "country": "United Kingdom",
+      "text": "Andrew Huxley proposed that side-pieces on myosin attach to actin, pull, and let go, over and over. The same year Hugh Huxley saw these cross-bridges in electron micrographs.",
+      "why": "The cross-bridge cycle in chapter 3 grew from this model.",
+      "box": "sliding",
+      "sources": [
+        34,
+        35,
+        17
+      ]
+    },
+    {
+      "year": 1965,
+      "date": "1965",
+      "era": "filaments",
+      "art": "molecule",
+      "key": false,
+      "title": "Troponin: the calcium switch",
+      "who": "Setsuro Ebashi",
+      "where": "Tokyo",
+      "country": "Japan",
+      "text": "Ebashi discovered troponin, the protein on actin that grabs calcium and moves tropomyosin out of the way so myosin can bind. It explained how calcium turns muscle on and off.",
+      "why": "It completed the chain from nerve signal to calcium to cross-bridge.",
+      "box": "sliding",
+      "sources": [
+        37,
+        38
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "1966",
+      "era": "filaments",
+      "art": "spring2",
+      "key": false,
+      "title": "Force depends on overlap",
+      "who": "Albert Gordon, Andrew Huxley and Fred Julian",
+      "where": "London",
+      "country": "United Kingdom",
+      "text": "By holding single frog fibres at different lengths, they showed that force is greatest when actin and myosin overlap most, and falls when the fibre is stretched or squashed.",
+      "why": "It is the length–tension curve in chapter 3, and strong proof of sliding filaments.",
+      "box": "sliding",
+      "sources": [
+        36
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "1962–1967",
+      "era": "filaments",
+      "art": "flame",
+      "key": false,
+      "title": "A needle looks inside athletes' muscles",
+      "who": "Jonas Bergström and Eric Hultman",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "Bergström revived Duchenne's idea of a biopsy needle and used it on athletes. With Hultman he showed that muscle glycogen runs down in long exercise and that a high-carbohydrate diet refills it, the start of \"carb loading\".",
+      "why": "Sports science could now measure fuel and fibre types in living people.",
+      "box": "energy",
+      "sources": [
+        39,
+        40
+      ]
+    },
+    {
+      "year": 1971,
+      "date": "1971",
+      "era": "filaments",
+      "art": "molecule",
+      "key": false,
+      "title": "The cross-bridge cycle, step by step",
+      "who": "Richard Lymn and Edwin Taylor",
+      "where": "Chicago",
+      "country": "United States",
+      "text": "Lymn and Taylor timed each chemical step: ATP binding frees myosin from actin, splitting ATP re-cocks the head, and releasing the products drives the power stroke.",
+      "why": "It explains why no ATP means rigor mortis.",
+      "box": "sliding",
+      "sources": [
+        41
+      ]
+    },
+    {
+      "year": 1987,
+      "date": "1986–1987",
+      "era": "genes",
+      "art": "cell",
+      "key": true,
+      "title": "The missing protein of Duchenne dystrophy",
+      "who": "Louis Kunkel, Eric Hoffman and colleagues",
+      "where": "Boston",
+      "country": "United States",
+      "text": "Kunkel's team found the gene behind Duchenne muscular dystrophy in 1986, and in 1987 identified its protein, dystrophin, which anchors the inside of each fibre to its outer membrane. Boys with the disease lack it.",
+      "why": "It turned a disease described in the 1860s into a target for treatment.",
+      "box": "health",
+      "sources": [
+        42,
+        43
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "1988–1989",
+      "era": "genes",
+      "art": "person",
+      "key": false,
+      "title": "A name for muscle loss in old age",
+      "who": "Irwin Rosenberg",
+      "where": "Boston",
+      "country": "United States",
+      "text": "Rosenberg proposed the word sarcopenia, from Greek for \"poverty of flesh\", for the loss of muscle with age. The next year a study showed people in their 90s could nearly triple their strength with 8 weeks of training.",
+      "why": "It made muscle loss something doctors measure and treat.",
+      "box": "health",
+      "sources": [
+        46,
+        47
+      ]
+    },
+    {
+      "year": 1993,
+      "date": "1993",
+      "era": "genes",
+      "art": "molecule",
+      "key": false,
+      "title": "The shape of the myosin head",
+      "who": "Ivan Rayment, Hazel Holden and colleagues",
+      "where": "Madison, Wisconsin",
+      "country": "United States",
+      "text": "Rayment's team solved the 3D structure of the myosin head, showing a motor domain that grips actin and a long lever arm that swings.",
+      "why": "For the first time the power stroke could be pictured atom by atom.",
+      "box": "sliding",
+      "sources": [
+        44
+      ]
+    },
+    {
+      "year": 1997,
+      "date": "1997",
+      "era": "genes",
+      "art": "muscle",
+      "key": false,
+      "title": "Myostatin: the brake on muscle growth",
+      "who": "Alexandra McPherron, Ann Lawler and Se-Jin Lee",
+      "where": "Baltimore",
+      "country": "United States",
+      "text": "Mice without the gene for myostatin grew two to three times more muscle. The same gene explains \"double-muscled\" cattle breeds.",
+      "why": "It showed the body actively limits muscle size, and opened research into treatments for muscle wasting.",
+      "box": "energy",
+      "sources": [
+        45
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "22 June 2023",
+      "era": "genes",
+      "art": "cell",
+      "key": false,
+      "title": "A first gene therapy for Duchenne",
+      "who": "US Food and Drug Administration",
+      "where": "Silver Spring, Maryland",
+      "country": "United States",
+      "text": "The FDA gave accelerated approval to the first gene therapy for Duchenne muscular dystrophy, which delivers a shortened dystrophin gene, at first for some boys aged 4 to 5. In 2025, after deaths in treated patients, the FDA asked for its use to be paused while safety was reviewed.",
+      "why": "A disease once untreatable now has therapies aimed at its cause, though they are still being tested and carry real risks.",
+      "box": "health",
+      "sources": [
+        48,
+        55
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Count of the body's muscles",
+      "value": "c. 500 peshi",
+      "who": "Sushruta Samhita, India"
+    },
+    {
+      "label": "Muscles described as working in opposing pairs",
+      "value": "c. 170",
+      "who": "Galen, Rome"
+    },
+    {
+      "label": "Proof that a contracting muscle does not swell",
+      "value": "c. 1660s",
+      "who": "Jan Swammerdam, Netherlands"
+    },
+    {
+      "label": "Muscles analysed as levers",
+      "value": "1680",
+      "who": "Giovanni Alfonso Borelli, Italy"
+    },
+    {
+      "label": "Muscle protein isolated (myosin)",
+      "value": "1864",
+      "who": "Wilhelm Kühne, Germany"
+    },
+    {
+      "label": "Sliding filament theory",
+      "value": "22 May 1954",
+      "who": "A. F. Huxley & R. Niedergerke; H. E. Huxley & J. Hanson, UK"
+    }
+  ],
+  "people": [
+    {
+      "name": "Galen of Pergamon",
+      "life": "c. 129 – c. 216",
+      "role": "Physician",
+      "from": "Pergamon (now Turkey), worked in Rome",
+      "note": "Showed that muscles pull, work in opposing pairs and need their nerves."
+    },
+    {
+      "name": "Giovanni Alfonso Borelli",
+      "life": "1608 – 1679",
+      "role": "Mathematician and physiologist",
+      "from": "Naples, Italy",
+      "note": "Treated the skeleton as levers and worked out how hard muscles must pull."
+    },
+    {
+      "name": "Jan Swammerdam",
+      "life": "1637 – 1680",
+      "role": "Naturalist",
+      "from": "Amsterdam, Netherlands",
+      "note": "Showed that a contracting frog muscle does not swell."
+    },
+    {
+      "name": "Guillaume Duchenne de Boulogne",
+      "life": "1806 – 1875",
+      "role": "Neurologist",
+      "from": "Boulogne-sur-Mer, France",
+      "note": "Mapped muscles with electric currents and described the dystrophy named after him."
+    },
+    {
+      "name": "Archibald Vivian Hill",
+      "life": "1886 – 1977",
+      "role": "Physiologist",
+      "from": "Bristol, United Kingdom",
+      "note": "Measured muscle heat and won the 1922 Nobel Prize."
+    },
+    {
+      "name": "Yellapragada Subbarow",
+      "life": "1895 – 1948",
+      "role": "Biochemist",
+      "from": "Bhimavaram, India",
+      "note": "Co-discovered phosphocreatine and ATP in muscle at Harvard."
+    },
+    {
+      "name": "Albert Szent-Györgyi",
+      "life": "1893 – 1986",
+      "role": "Biochemist",
+      "from": "Budapest, Hungary",
+      "note": "Made actomyosin threads contract with ATP in a test tube."
+    },
+    {
+      "name": "Jean Hanson",
+      "life": "1919 – 1973",
+      "role": "Biophysicist",
+      "from": "Derbyshire, United Kingdom",
+      "note": "Co-author with Hugh Huxley of one of the two 1954 sliding filament papers."
+    },
+    {
+      "name": "Andrew Huxley",
+      "life": "1917 – 2012",
+      "role": "Physiologist",
+      "from": "London, United Kingdom",
+      "note": "Co-author of the other 1954 paper and of the first cross-bridge model."
+    },
+    {
+      "name": "Hugh Huxley",
+      "life": "1924 – 2013",
+      "role": "Molecular biologist",
+      "from": "Birkenhead, United Kingdom",
+      "note": "Saw the thick and thin filaments and their cross-bridges in the electron microscope."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "You have more than 600 skeletal muscles, and they make up about a third of your body mass.",
+    "The two 1954 papers that explained muscle were by two scientists called Huxley who were not related.",
+    "A muscle holds only about 2–3 seconds' worth of ATP, so it remakes it all the time.",
+    "Your biceps pulls about seven times harder than the weight in your hand, because it grips the forearm so close to the elbow."
+  ],
+  "sources": [
+    {
+      "title": "On the Motion of Animals (Aristotle)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Movement_of_Animals"
+    },
+    {
+      "title": "Sushruta Samhita",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sushruta_Samhita"
+    },
+    {
+      "title": "Anatomy in ancient India: a focus on the Susruta Samhita (Loukas et al., 2010)",
+      "publisher": "Journal of Anatomy",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1469-7580.2010.01294.x"
+    },
+    {
+      "title": "Erasistratus",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Erasistratus"
+    },
+    {
+      "title": "Galen",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Galen"
+    },
+    {
+      "title": "Galen",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galen"
+    },
+    {
+      "title": "Leonardo da Vinci: anatomist",
+      "publisher": "Royal Collection Trust",
+      "url": "https://www.rct.uk/collection/themes/exhibitions/leonardo-da-vinci-anatomist"
+    },
+    {
+      "title": "Andreas Vesalius",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Andreas-Vesalius"
+    },
+    {
+      "title": "De humani corporis fabrica",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/De_humani_corporis_fabrica"
+    },
+    {
+      "title": "Nicolas Steno",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nicolas_Steno"
+    },
+    {
+      "title": "Jan Swammerdam",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jan_Swammerdam"
+    },
+    {
+      "title": "Giovanni Alfonso Borelli",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giovanni_Alfonso_Borelli"
+    },
+    {
+      "title": "Giovanni Alfonso Borelli",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Giovanni-Alfonso-Borelli"
+    },
+    {
+      "title": "Luigi Galvani",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Luigi-Galvani"
+    },
+    {
+      "title": "Luigi Galvani",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luigi_Galvani"
+    },
+    {
+      "title": "Guillaume-Benjamin-Amand Duchenne",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guillaume-Benjamin-Amand_Duchenne"
+    },
+    {
+      "title": "Guillaume-Benjamin-Amand Duchenne de Boulogne",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Guillaume-Benjamin-Amand-Duchenne-de-Boulogne"
+    },
+    {
+      "title": "Sliding filament theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sliding_filament_theory"
+    },
+    {
+      "title": "Myosin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Myosin"
+    },
+    {
+      "title": "Louis-Antoine Ranvier",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis-Antoine_Ranvier"
+    },
+    {
+      "title": "Sydney Ringer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sydney_Ringer"
+    },
+    {
+      "title": "Frederick Gowland Hopkins",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frederick_Gowland_Hopkins"
+    },
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 1922",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/1922/summary/"
+    },
+    {
+      "title": "Archibald Vivian Hill",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archibald_Hill"
+    },
+    {
+      "title": "VO2 max",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VO2_max"
+    },
+    {
+      "title": "Yellapragada Subbarow",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yellapragada_Subbarow"
+    },
+    {
+      "title": "Phosphocreatine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phosphocreatine"
+    },
+    {
+      "title": "Adenosine triphosphate",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+    },
+    {
+      "title": "Albert Szent-Györgyi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albert_Szent-Gy%C3%B6rgyi"
+    },
+    {
+      "title": "Albert Szent-Györgyi: biographical",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/medicine/1937/szent-gyorgyi/biographical/"
+    },
+    {
+      "title": "Brunó Ferenc Straub",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brun%C3%B3_Ferenc_Straub"
+    },
+    {
+      "title": "Structural changes in muscle during contraction: interference microscopy of living muscle fibres (Huxley & Niedergerke), Nature 173:971",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/173971a0"
+    },
+    {
+      "title": "Changes in the cross-striations of muscle during contraction and stretch (Huxley & Hanson), Nature 173:973",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/173973a0"
+    },
+    {
+      "title": "Jean Hanson",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jean_Hanson"
+    },
+    {
+      "title": "Andrew Huxley",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Huxley"
+    },
+    {
+      "title": "Hugh Huxley",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hugh_Huxley"
+    },
+    {
+      "title": "The variation in isometric tension with sarcomere length in vertebrate muscle fibres (Gordon, Huxley & Julian, 1966)",
+      "publisher": "Journal of Physiology",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/jphysiol.1966.sp007909"
+    },
+    {
+      "title": "Setsuro Ebashi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Setsuro_Ebashi"
+    },
+    {
+      "title": "Troponin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Troponin"
+    },
+    {
+      "title": "Muscle biopsy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Muscle_biopsy"
+    },
+    {
+      "title": "Carbohydrate loading",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carbohydrate_loading"
+    },
+    {
+      "title": "Mechanism of adenosine triphosphate hydrolysis by actomyosin (Lymn & Taylor, 1971)",
+      "publisher": "Biochemistry (ACS)",
+      "url": "https://pubs.acs.org/doi/10.1021/bi00801a004"
+    },
+    {
+      "title": "Dystrophin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dystrophin"
+    },
+    {
+      "title": "Duchenne muscular dystrophy",
+      "publisher": "MedlinePlus Genetics (US National Library of Medicine)",
+      "url": "https://medlineplus.gov/genetics/condition/duchenne-and-becker-muscular-dystrophy/"
+    },
+    {
+      "title": "Three-dimensional structure of myosin subfragment-1 (Rayment et al., 1993)",
+      "publisher": "Science",
+      "url": "https://www.science.org/doi/10.1126/science.8316857"
+    },
+    {
+      "title": "Myostatin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Myostatin"
+    },
+    {
+      "title": "Sarcopenia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sarcopenia"
+    },
+    {
+      "title": "High-intensity strength training in nonagenarians (Fiatarone et al., 1990)",
+      "publisher": "JAMA",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/380689"
+    },
+    {
+      "title": "FDA approves first gene therapy for Duchenne muscular dystrophy (2023)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-treatment-certain-patients-duchenne-muscular-dystrophy"
+    },
+    {
+      "title": "WHO guidelines on physical activity and sedentary behaviour (2020)",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789240015128"
+    },
+    {
+      "title": "Skeletal muscle mass and distribution in 468 men and women aged 18–88 yr (Janssen et al., 2000)",
+      "publisher": "Journal of Applied Physiology",
+      "url": "https://journals.physiology.org/doi/full/10.1152/jappl.2000.89.1.81"
+    },
+    {
+      "title": "Energy system interaction and relative contribution during maximal exercise (Gastin, 2001)",
+      "publisher": "Sports Medicine",
+      "url": "https://link.springer.com/article/10.2165/00007256-200131100-00003"
+    },
+    {
+      "title": "Skeletal muscle enzymes and fiber composition in male and female track athletes (Costill et al., 1976)",
+      "publisher": "Journal of Applied Physiology",
+      "url": "https://journals.physiology.org/doi/10.1152/jappl.1976.40.2.149"
+    },
+    {
+      "title": "Muscle",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/muscle"
+    },
+    {
+      "title": "Lactic acid in amphibian muscle (Fletcher & Hopkins, 1907)",
+      "publisher": "Journal of Physiology",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/10.1113/jphysiol.1907.sp001194"
+    },
+    {
+      "title": "FDA requests Sarepta suspend distribution of Elevidys (2025)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-requests-sarepta-therapeutics-suspend-distribution-elevidys-and-places-clinical-trials-hold"
+    }
+  ]
+}

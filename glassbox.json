@@ -1,0 +1,107 @@
+{
+  "slug": "muscleclear",
+  "box": 47,
+  "date": "2026-10-05",
+  "title": "MuscleClear",
+  "question": "How do your muscles move you?",
+  "hook": "More than 600 muscles, a third of your body, and every one can only pull. Peel a body down to its muscles, zoom into a sarcomere to watch myosin heads tug on actin with ATP, work out how hard your biceps pulls, and race the three energy systems.",
+  "thumbText": "HOW MUSCLES MOVE YOU",
+  "field": "body",
+  "minutes": 15,
+  "tags": [
+    "muscles",
+    "muscular system",
+    "sarcomere",
+    "actin and myosin",
+    "sliding filament theory",
+    "ATP",
+    "biceps",
+    "human body",
+    "biology",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "More than 600 motors under your skin",
+      "text": "Skeletal muscles are about a third of your body mass, joined to bones by tendons: the deltoid, biceps and triceps, pectorals and abs, glutes, quadriceps, hamstrings and calves. The diaphragm, a dome under the lungs, does most of your breathing."
+    },
+    {
+      "title": "Three kinds of muscle",
+      "text": "Skeletal muscle is striped and voluntary. Cardiac muscle is striped, branched and runs on its own pacemaker, beating about a lakh times a day without tiring. Smooth muscle in the gut and vessels has no stripes and squeezes slowly for seconds."
+    },
+    {
+      "title": "Millions of tiny tugs",
+      "text": "A muscle is bundles of fibres, fibres are packed with myofibrils, and myofibrils are chains of 2.5 µm sarcomeres. A nerve signal releases calcium, myosin heads grab actin and pull, one ATP per stroke, and the filaments slide so each sarcomere shortens to about 2.0 µm."
+    },
+    {
+      "title": "Muscles only pull",
+      "text": "So they work in opposing pairs: biceps and triceps, quadriceps and hamstrings. The biceps grips the forearm about 5 cm from the elbow while your hand is 33 cm away, so it pulls about seven times the weight you hold."
+    },
+    {
+      "title": "Fuel, fibres and fatigue",
+      "text": "Phosphocreatine lasts about 10 s, glycolysis a minute or two, and aerobic respiration for hours. Sprinters are mostly fast-twitch, marathoners mostly slow-twitch. Lactate doesn't cause next-day soreness, and training thickens fibres rather than adding new ones."
+    },
+    {
+      "title": "Keeping them strong",
+      "text": "Strains usually heal with rest; see a doctor for a pop or if you can't walk. After 30, muscle falls about 3–8% a decade, but strength training twice a week (WHO) and enough protein help at any age."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Skeletal muscle",
+      "def": "Striped, voluntary muscle joined to bones by tendons."
+    },
+    {
+      "term": "Tendon",
+      "def": "A tough cord of collagen that joins a muscle to a bone."
+    },
+    {
+      "term": "Sarcomere",
+      "def": "The repeating unit of a muscle fibre, about 2–2.5 µm long, from one Z-disc to the next."
+    },
+    {
+      "term": "Actin and myosin",
+      "def": "The thin and thick filaments; myosin heads pull on actin to make the filaments slide."
+    },
+    {
+      "term": "Cross-bridge cycle",
+      "def": "Grab, pull, release, re-cock: one ATP per stroke for each myosin head."
+    },
+    {
+      "term": "Antagonist pair",
+      "def": "Two muscles that pull a joint opposite ways, like biceps and triceps."
+    },
+    {
+      "term": "ATP",
+      "def": "The energy molecule every muscle stroke spends, remade by phosphocreatine, glycolysis and aerobic respiration."
+    },
+    {
+      "term": "Slow- and fast-twitch fibres",
+      "def": "Type I fibres are steady and tireless; type II are quick and powerful but tire fast."
+    },
+    {
+      "term": "Sarcopenia",
+      "def": "Loss of muscle mass and strength with age."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "muscleclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ],
+  "thumbScene": 4
+}
